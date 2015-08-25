@@ -41,10 +41,9 @@ public class ResComercio {
 	protected String nro_cupon;
 	protected String fecha_movimiento;
 	protected String cod_autorizacion;
-	protected String PaginadoResponse_CantidadRegistros;
-	protected String PaginadoResponse_pagina;
-	protected String PaginadoResponse_RegistrosPagina;
-	
+	protected int PaginadoResponse_CantidadRegistros;
+	protected int PaginadoResponse_pagina;
+	protected int PaginadoResponse_RegistrosPagina;
 	/**
 	 * @return the rescomercio
 	 */
@@ -177,43 +176,42 @@ public class ResComercio {
 	public void setCod_autorizacion(String cod_autorizacion) {
 		this.cod_autorizacion = cod_autorizacion;
 	}
-
 	/**
 	 * @return the paginadoResponse_CantidadRegistros
 	 */
-	public String getPaginadoResponse_CantidadRegistros() {
+	public int getPaginadoResponse_CantidadRegistros() {
 		return PaginadoResponse_CantidadRegistros;
 	}
 	/**
 	 * @param paginadoResponse_CantidadRegistros the paginadoResponse_CantidadRegistros to set
 	 */
 	public void setPaginadoResponse_CantidadRegistros(
-			String paginadoResponse_CantidadRegistros) {
+			int paginadoResponse_CantidadRegistros) {
 		PaginadoResponse_CantidadRegistros = paginadoResponse_CantidadRegistros;
 	}
 	/**
 	 * @return the paginadoResponse_pagina
 	 */
-	public String getPaginadoResponse_pagina() {
+	public int getPaginadoResponse_pagina() {
 		return PaginadoResponse_pagina;
 	}
 	/**
 	 * @param paginadoResponse_pagina the paginadoResponse_pagina to set
 	 */
-	public void setPaginadoResponse_pagina(String paginadoResponse_pagina) {
+	public void setPaginadoResponse_pagina(int paginadoResponse_pagina) {
 		PaginadoResponse_pagina = paginadoResponse_pagina;
 	}
 	/**
 	 * @return the paginadoResponse_RegistrosPagina
 	 */
-	public String getPaginadoResponse_RegistrosPagina() {
+	public int getPaginadoResponse_RegistrosPagina() {
 		return PaginadoResponse_RegistrosPagina;
 	}
 	/**
 	 * @param paginadoResponse_RegistrosPagina the paginadoResponse_RegistrosPagina to set
 	 */
 	public void setPaginadoResponse_RegistrosPagina(
-			String paginadoResponse_RegistrosPagina) {
+			int paginadoResponse_RegistrosPagina) {
 		PaginadoResponse_RegistrosPagina = paginadoResponse_RegistrosPagina;
 	}
 	/* (non-Javadoc)
@@ -253,8 +251,7 @@ public class ResComercio {
 		builder.append("]");
 		return builder.toString();
 	}
-
-
+		
 }
 
 

@@ -1,4 +1,4 @@
-package com.ar.main;
+package ar.com.helpers;
 
 public class Llamadas {
 	
@@ -137,5 +137,16 @@ public class Llamadas {
 			    "<PaginadoResponse_RegistrosPagina>10</PaginadoResponse_RegistrosPagina>"+
 			  "</rescomercio>"+
 			  "</CONFIA>";
+	}
+	public String getUltimosResComercio(){
+		return  "<CONFIA>"+"<ultimosrescomercio>"+
+	"<NroComercio>19200707004</NroComercio>"+
+				"<DescripcionComercio>CEDICOM SACIFA NQN.</DescripcionComercio>"+
+	"<NroLiquidacion>436607</NroLiquidacion>"+"<FechaEmision>13/02/2015</FechaEmision>"+
+				"<TotalCompras>101439.17</TotalCompras>"+"<TotalDescuentos>0.00</TotalDescuentos>"+
+	"<TotalBruto>101439.17</TotalBruto><Aporte>3043.18</Aporte>"+"<IvaAporte>639.07</IvaAporte>"+""
+			+ "<Iva>977.57</Iva>"+"<IngBrutos>977.57</IngBrutos>"+"<Ganancias>977.57</Ganancias>"+
+	"<TotalNeto>94824.21</TotalNeto>"+"<CondicionPago>14</CondicionPago>"+
+			"<FechaCobro>27/02/2015</FechaCobro>"+"</ultimosrescomercio>"+"</CONFIA>";
 	}
 }

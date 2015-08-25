@@ -1,4 +1,4 @@
-package com.ar.main;
+package ar.com.rescomercio;
 
 import java.util.ArrayList;
 import java.util.List;

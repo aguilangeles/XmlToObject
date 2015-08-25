@@ -1,6 +1,5 @@
-package com.ar.main;
+package ar.com.ultimorescomercio;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -11,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name ="CONFIA")
 @XmlAccessorType (XmlAccessType.FIELD)
 
-public class CONFIA2 {
+public class CONFIA {
 	
 	private String CONFIA;
 	

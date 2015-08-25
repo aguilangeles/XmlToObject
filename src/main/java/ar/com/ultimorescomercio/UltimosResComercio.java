@@ -1,4 +1,4 @@
-package com.ar.main;
+package ar.com.ultimorescomercio;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

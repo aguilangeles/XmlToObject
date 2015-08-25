@@ -87,7 +87,7 @@ public class Llamadas {
 		
 	}
 	
-	public String resultado(){
+	public String getResComercio(){
 	return 
 		"<CONFIA>"+
 				
@@ -105,11 +105,9 @@ public class Llamadas {
 			    "<PaginadoResponse_CantidadRegistros>45</PaginadoResponse_CantidadRegistros>"+
 			    "<PaginadoResponse_pagina>1</PaginadoResponse_pagina>"+
 			    "<PaginadoResponse_RegistrosPagina>10</PaginadoResponse_RegistrosPagina>"+
-			  "</rescomercio>"	+   
-		/*	
-		 +
+			  "</rescomercio>"	+  
 			  "<rescomercio>"+
-			    "<nro_comercio>21000022003</nro_comercio>"+
+			    "<nro_comercio>21000022005</nro_comercio>"+
 			    "<nro_liquidacioncomercio>1235</nro_liquidacioncomercio>"+
 			    "<id_tarjeta>5047444106302220</id_tarjeta>"+
 			    "<importe_autorizacion>34.54</importe_autorizacion>"+
@@ -124,7 +122,7 @@ public class Llamadas {
 			    "<PaginadoResponse_RegistrosPagina>10</PaginadoResponse_RegistrosPagina>"+
 			  "</rescomercio>"+
 			  "<rescomercio>"+
-			    "<nro_comercio>21000022003</nro_comercio>"+
+			    "<nro_comercio>21000022008</nro_comercio>"+
 			    "<nro_liquidacioncomercio>1235</nro_liquidacioncomercio>"+
 			    "<id_tarjeta>5047449902243160</id_tarjeta>"+
 			    "<importe_autorizacion>70.91</importe_autorizacion>"+
@@ -137,7 +135,7 @@ public class Llamadas {
 			    "<PaginadoResponse_CantidadRegistros>4</PaginadoResponse_CantidadRegistros>"+
 			    "<PaginadoResponse_pagina>1</PaginadoResponse_pagina>"+
 			    "<PaginadoResponse_RegistrosPagina>10</PaginadoResponse_RegistrosPagina>"+
-			  "</rescomercio>"+*/
+			  "</rescomercio>"+
 			  "</CONFIA>";
 	}
 }

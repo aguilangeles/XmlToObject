@@ -15,7 +15,6 @@ public class CONFIA {
 	
 	private String CONFIA;
 	
-//	private ResComercio rescomercio;
 	@XmlElement(name ="rescomercio")
 	private List<ResComercio> rescomercios =null;
 

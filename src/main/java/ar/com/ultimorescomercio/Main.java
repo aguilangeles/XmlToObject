@@ -56,7 +56,7 @@ public class Main {
 
 	private static File getXml() {
 
-		File file = new File("/Users/angeles/Desktop/workspace/XmlToObject/src/main/resources/resUltimosComercios.xml");
+		File file = new File("${basedir}/src/main/resources/resUltimosComercios.xml");
 		try {
 			FileReader reader = new FileReader(file);
 			BufferedReader br = new BufferedReader(reader); 

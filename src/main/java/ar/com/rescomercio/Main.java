@@ -27,14 +27,14 @@ public class Main {
 		Unmarshaller unmarshaller =jc.createUnmarshaller();
 
 		//en caso de que lo lea de un xml
-		File file = getXml();
+		//File file = getXml();
 
 		// en caso de que lo lea desde un String
-//		StreamSource streamsource = getResultado();
+		StreamSource streamsource = getResultado();
 
 		
 
-		CONFIA confia = (CONFIA) unmarshaller.unmarshal(file);
+		CONFIA confia = (CONFIA) unmarshaller.unmarshal(streamsource);
 		  System.out.println("======= lista=========================");
 		  
 		for(ResComercio comercio : confia.getRescomercios()){
@@ -55,7 +55,7 @@ public class Main {
 
 	private static File getXml() {
 
-		File file = new File("/Users/angeles/Desktop/workspace/XmlToObject/src/main/resources/rescomercio.xml");
+		File file = new File("${basedir}/src/main/resources/rescomercio.xml");
 		try {
 			FileReader reader = new FileReader(file);
 			BufferedReader br = new BufferedReader(reader); 

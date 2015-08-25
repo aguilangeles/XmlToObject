@@ -21,9 +21,9 @@ import javax.xml.bind.annotation.XmlType;
 		"nro_cupon",
 		"fecha_movimiento",
 		"cod_autorizacion",
-		"paginadoResponse_CantidadRegistros",
-		"paginadoResponse_pagina",
-		"paginadoResponse_RegistrosPagina"
+		"PaginadoResponse_CantidadRegistros",
+		"PaginadoResponse_pagina",
+		"PaginadoResponse_RegistrosPagina"
 		
 		
 })
@@ -41,9 +41,9 @@ public class ResComercio {
 	protected String nro_cupon;
 	protected String fecha_movimiento;
 	protected String cod_autorizacion;
-	protected String paginadoResponse_CantidadRegistros;
-	protected String paginadoResponse_pagina;
-	protected String paginadoResponse_RegistrosPagina;
+	protected String PaginadoResponse_CantidadRegistros;
+	protected String PaginadoResponse_pagina;
+	protected String PaginadoResponse_RegistrosPagina;
 	
 	/**
 	 * @return the rescomercio
@@ -177,43 +177,44 @@ public class ResComercio {
 	public void setCod_autorizacion(String cod_autorizacion) {
 		this.cod_autorizacion = cod_autorizacion;
 	}
+
 	/**
 	 * @return the paginadoResponse_CantidadRegistros
 	 */
 	public String getPaginadoResponse_CantidadRegistros() {
-		return paginadoResponse_CantidadRegistros;
+		return PaginadoResponse_CantidadRegistros;
 	}
 	/**
 	 * @param paginadoResponse_CantidadRegistros the paginadoResponse_CantidadRegistros to set
 	 */
 	public void setPaginadoResponse_CantidadRegistros(
 			String paginadoResponse_CantidadRegistros) {
-		this.paginadoResponse_CantidadRegistros = paginadoResponse_CantidadRegistros;
+		PaginadoResponse_CantidadRegistros = paginadoResponse_CantidadRegistros;
 	}
 	/**
 	 * @return the paginadoResponse_pagina
 	 */
 	public String getPaginadoResponse_pagina() {
-		return paginadoResponse_pagina;
+		return PaginadoResponse_pagina;
 	}
 	/**
 	 * @param paginadoResponse_pagina the paginadoResponse_pagina to set
 	 */
 	public void setPaginadoResponse_pagina(String paginadoResponse_pagina) {
-		this.paginadoResponse_pagina = paginadoResponse_pagina;
+		PaginadoResponse_pagina = paginadoResponse_pagina;
 	}
 	/**
 	 * @return the paginadoResponse_RegistrosPagina
 	 */
 	public String getPaginadoResponse_RegistrosPagina() {
-		return paginadoResponse_RegistrosPagina;
+		return PaginadoResponse_RegistrosPagina;
 	}
 	/**
 	 * @param paginadoResponse_RegistrosPagina the paginadoResponse_RegistrosPagina to set
 	 */
 	public void setPaginadoResponse_RegistrosPagina(
 			String paginadoResponse_RegistrosPagina) {
-		this.paginadoResponse_RegistrosPagina = paginadoResponse_RegistrosPagina;
+		PaginadoResponse_RegistrosPagina = paginadoResponse_RegistrosPagina;
 	}
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
@@ -223,32 +224,32 @@ public class ResComercio {
 		StringBuilder builder = new StringBuilder();
 		builder.append("ResComercio [rescomercio=");
 		builder.append(rescomercio);
-		builder.append(", \nnro_comercio=");
+		builder.append(", nro_comercio=");
 		builder.append(nro_comercio);
-		builder.append(", \nnro_liquidacioncomercio=");
+		builder.append(", nro_liquidacioncomercio=");
 		builder.append(nro_liquidacioncomercio);
-		builder.append(", \nid_tarjeta=");
+		builder.append(", id_tarjeta=");
 		builder.append(id_tarjeta);
-		builder.append(", \nimporte_autorizacion=");
+		builder.append(", importe_autorizacion=");
 		builder.append(importe_autorizacion);
-		builder.append(", \nimporte_cuota=");
+		builder.append(", importe_cuota=");
 		builder.append(importe_cuota);
-		builder.append(", \nimporte_cuotacoeficiente=");
+		builder.append(", importe_cuotacoeficiente=");
 		builder.append(importe_cuotacoeficiente);
-		builder.append(", \ncuotas=");
+		builder.append(", cuotas=");
 		builder.append(cuotas);
-		builder.append(", \nnro_cupon=");
+		builder.append(", nro_cupon=");
 		builder.append(nro_cupon);
-		builder.append(", \nfecha_movimiento=");
+		builder.append(", fecha_movimiento=");
 		builder.append(fecha_movimiento);
-		builder.append(", \ncod_autorizacion=");
+		builder.append(", cod_autorizacion=");
 		builder.append(cod_autorizacion);
-		builder.append(", \npaginadoResponse_CantidadRegistros=");
-		builder.append(paginadoResponse_CantidadRegistros);
-		builder.append(", \npaginadoResponse_pagina=");
-		builder.append(paginadoResponse_pagina);
-		builder.append(", \npaginadoResponse_RegistrosPagina=");
-		builder.append(paginadoResponse_RegistrosPagina);
+		builder.append(", PaginadoResponse_CantidadRegistros=");
+		builder.append(PaginadoResponse_CantidadRegistros);
+		builder.append(", PaginadoResponse_pagina=");
+		builder.append(PaginadoResponse_pagina);
+		builder.append(", PaginadoResponse_RegistrosPagina=");
+		builder.append(PaginadoResponse_RegistrosPagina);
 		builder.append("]");
 		return builder.toString();
 	}
